@@ -1,0 +1,15 @@
+<view>
+  <van-checkbox-group class="card-goods" value="{{ checkedGoods }}" bind:change="onChange">
+    <van-checkbox class="card-goods__item" wx:for="{{ goods }}" wx:key="{{ item.id }}" name="{{ item.id }}"
+      label-disabled>
+      <van-card title="{{ item.title }}" desc="{{ item.desc }}" price="{{ item.formatPrice }}" thumb="{{ item.thumb }}"
+        lazy-load thumb-link="/pages/goods/detail?id={{item.id}}">
+        <view slot="bottom" class="card-goods__item_number">
+          <van-stepper value="{{ item.num }}" bind:change="onChangeNumber" data-id="{{item.id}}"/>
+        </view>
+      </van-card>
+    </van-checkbox>
+  </van-checkbox-group>
+  <van-submit-bar price="{{ totalPrice }}" disabled="{{ !checkedGoods.length }}" button-text="{{ submitBarText }}"
+    bind:submit="onSubmit" />
+</view>

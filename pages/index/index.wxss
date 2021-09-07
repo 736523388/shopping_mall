@@ -1,19 +1,18 @@
-/**index.wxss**/
-.userinfo {
+.goods{
+  display: -webkit-flex; /* Safari */
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: #aaa;
+  flex-flow: row wrap;
+  justify-content: center;
 }
-
-.userinfo-avatar {
-  overflow: hidden;
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
+.goods .goods-item {
+  padding: 10rpx;
+  margin: 7.5rpx;
+  width: 330rpx;
+  height: 330rpx;
+  background-color: #FFF;
+  border-radius: 17.5rpx;
 }
-
-.usermotto {
-  margin-top: 200px;
+.goods .goods-item image{
+  height: 330rpx;
+  width: 330rpx;
 }

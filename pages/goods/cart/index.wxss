@@ -1,0 +1,32 @@
+.card-goods {
+  padding: 20rpx 0;
+  background-color: #fff;
+}
+
+.card-goods__item {
+  position: relative;
+  background-color: #fafafa;
+  --checkbox-checked-icon-color: #ee0a24;
+}
+
+.card-goods__item .van-checkbox__label {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  /* padding-left: 0; */
+}
+
+.card-goods__item .van-checkbox__icon {
+  left: 20rpx;
+  z-index: 1;
+  position: absolute;
+  margin-top: -20rpx;
+}
+.card-goods__item .van-card{
+  padding-left: 64rpx;
+}
+.card-goods__item  .card-goods__item_number{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}

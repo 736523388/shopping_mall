@@ -1,0 +1,26 @@
+{
+  "name": "shopping_mall",
+  "version": "1.0.0",
+  "description": "微信小程序商城",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/736523388/shopping_mall.git"
+  },
+  "keywords": [
+    "微信小程序",
+    "商城"
+  ],
+  "author": "forska",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/736523388/shopping_mall/issues"
+  },
+  "homepage": "https://github.com/736523388/shopping_mall#readme",
+  "dependencies": {
+    "@vant/weapp": "^1.8.3"
+  }
+}
