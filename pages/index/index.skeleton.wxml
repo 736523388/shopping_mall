@@ -1,0 +1,94 @@
+<!--
+此文件为开发者工具生成，生成时间: 2021/9/11 上午10:41:36
+使用方法：
+在 D:\forska\wxapp\shopping_mall\pages\index\index.wxml 引入模板
+
+```
+<import src="index.skeleton.wxml"/>
+<template is="skeleton" wx-if="{{loading}}" />
+```
+
+在 D:\forska\wxapp\shopping_mall\pages\index\index.wxss 中引入样式
+```
+@import "./index.skeleton.wxss";
+```
+
+更多详细信息可以参考文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/skeleton.html
+-->
+<template name="skeleton">
+  <view class="sk-container">
+    <view is="pages/basics/home/home">
+      <scroll-view scroll-y="true" class="scrollPage basics-home-home--scrollPage">
+        <image class="png basics-home-home--png sk-image" mode="widthFix" style="width: 100%; height: 243.056px;"></image>
+        <view class="nav-list basics-home-home--nav-list">
+          <navigator class="nav-li basics-home-home--nav-li bg-cyan basics-home-home--bg-cyan sk-image sk-pseudo sk-pseudo-circle" hover-class="none" open-type="navigate">
+            <view class="nav-title basics-home-home--nav-title sk-transparent sk-text-14-2857-65 sk-text">布局</view>
+            <view class="nav-name basics-home-home--nav-name sk-transparent sk-text-14-2857-696 sk-text sk-pseudo sk-pseudo-circle">layout</view>
+            <text class="cuIcon-newsfill basics-home-home--cuIcon-newsfill sk-pseudo sk-pseudo-circle"></text>
+          </navigator>
+          <navigator class="nav-li basics-home-home--nav-li bg-blue basics-home-home--bg-blue sk-image sk-pseudo sk-pseudo-circle" hover-class="none" open-type="navigate">
+            <view class="nav-title basics-home-home--nav-title sk-transparent sk-text-14-2857-811 sk-text">背景</view>
+            <view class="nav-name basics-home-home--nav-name sk-transparent sk-text-14-2857-988 sk-text sk-pseudo sk-pseudo-circle">background</view>
+            <text class="cuIcon-colorlens basics-home-home--cuIcon-colorlens sk-pseudo sk-pseudo-circle"></text>
+          </navigator>
+          <navigator class="nav-li basics-home-home--nav-li bg-purple basics-home-home--bg-purple sk-image sk-pseudo sk-pseudo-circle" hover-class="none" open-type="navigate">
+            <view class="nav-title basics-home-home--nav-title sk-transparent sk-text-14-2857-406 sk-text">文本</view>
+            <view class="nav-name basics-home-home--nav-name sk-transparent sk-text-14-2857-994 sk-text sk-pseudo sk-pseudo-circle">text</view>
+            <text class="cuIcon-font basics-home-home--cuIcon-font sk-pseudo sk-pseudo-circle"></text>
+          </navigator>
+          <navigator class="nav-li basics-home-home--nav-li bg-mauve basics-home-home--bg-mauve sk-image sk-pseudo sk-pseudo-circle" hover-class="none" open-type="navigate">
+            <view class="nav-title basics-home-home--nav-title sk-transparent sk-text-14-2857-161 sk-text">图标 </view>
+            <view class="nav-name basics-home-home--nav-name sk-transparent sk-text-14-2857-89 sk-text sk-pseudo sk-pseudo-circle">icon</view>
+            <text class="cuIcon-icon basics-home-home--cuIcon-icon sk-pseudo sk-pseudo-circle"></text>
+          </navigator>
+          <navigator class="nav-li basics-home-home--nav-li bg-pink basics-home-home--bg-pink sk-image sk-pseudo sk-pseudo-circle" hover-class="none" open-type="navigate">
+            <view class="nav-title basics-home-home--nav-title sk-transparent sk-text-14-2857-415 sk-text">按钮</view>
+            <view class="nav-name basics-home-home--nav-name sk-transparent sk-text-14-2857-711 sk-text sk-pseudo sk-pseudo-circle">button</view>
+            <text class="cuIcon-btn basics-home-home--cuIcon-btn sk-pseudo sk-pseudo-circle"></text>
+          </navigator>
+          <navigator class="nav-li basics-home-home--nav-li bg-brown basics-home-home--bg-brown sk-image sk-pseudo sk-pseudo-circle" hover-class="none" open-type="navigate">
+            <view class="nav-title basics-home-home--nav-title sk-transparent sk-text-14-2857-814 sk-text">标签</view>
+            <view class="nav-name basics-home-home--nav-name sk-transparent sk-text-14-2857-819 sk-text sk-pseudo sk-pseudo-circle">tag</view>
+            <text class="cuIcon-tagfill basics-home-home--cuIcon-tagfill sk-pseudo sk-pseudo-circle"></text>
+          </navigator>
+          <navigator class="nav-li basics-home-home--nav-li bg-red basics-home-home--bg-red sk-image sk-pseudo sk-pseudo-circle" hover-class="none" open-type="navigate">
+            <view class="nav-title basics-home-home--nav-title sk-transparent sk-text-14-2857-463 sk-text">头像</view>
+            <view class="nav-name basics-home-home--nav-name sk-transparent sk-text-14-2857-729 sk-text sk-pseudo sk-pseudo-circle">avatar</view>
+            <text class="cuIcon-myfill basics-home-home--cuIcon-myfill sk-pseudo sk-pseudo-circle"></text>
+          </navigator>
+          <navigator class="nav-li basics-home-home--nav-li bg-orange basics-home-home--bg-orange sk-image sk-pseudo sk-pseudo-circle" hover-class="none" open-type="navigate">
+            <view class="nav-title basics-home-home--nav-title sk-transparent sk-text-14-2857-262 sk-text">进度条</view>
+            <view class="nav-name basics-home-home--nav-name sk-transparent sk-text-14-2857-871 sk-text sk-pseudo sk-pseudo-circle">progress</view>
+            <text class="cuIcon-icloading basics-home-home--cuIcon-icloading sk-pseudo sk-pseudo-circle"></text>
+          </navigator>
+        </view>
+      </scroll-view>
+    </view>
+    <view class="cu-bar tabbar bg-white shadow foot">
+      <view class="action" data-cur="basics">
+        <view class="cuIcon-cu-image">
+          <image class="sk-image"></image>
+        </view>
+        <view class="text-green sk-transparent sk-text-0-0000-55 sk-text" style="background-position-x: 50%;">元素</view>
+      </view>
+      <view class="action" data-cur="component">
+        <view class="cuIcon-cu-image">
+          <image class="sk-image"></image>
+        </view>
+        <view class="text-gray sk-transparent sk-text-0-0000-129 sk-text" style="background-position-x: 50%;">组件</view>
+      </view>
+      <view class="action" data-cur="plugin">
+        <view class="cuIcon-cu-image">
+          <image class="sk-image"></image>
+        </view>
+        <view class="text-gray sk-transparent sk-text-0-0000-722 sk-text" style="background-position-x: 50%;">扩展</view>
+      </view>
+      <view class="action" data-cur="about">
+        <view class="cuIcon-cu-image">
+          <image class="sk-image"></image>
+        </view>
+        <view class="text-gray sk-transparent sk-text-0-0000-182 sk-text" style="background-position-x: 50%;">关于</view>
+      </view>
+    </view>
+  </view>
+</template>

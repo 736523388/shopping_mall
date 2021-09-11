@@ -1,18 +1,1 @@
-.goods{
-  display: -webkit-flex; /* Safari */
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-}
-.goods .goods-item {
-  padding: 10rpx;
-  margin: 7.5rpx;
-  width: 330rpx;
-  height: 330rpx;
-  background-color: #FFF;
-  border-radius: 17.5rpx;
-}
-.goods .goods-item image{
-  height: 330rpx;
-  width: 330rpx;
-}
+/* pages/index/index.wxss */

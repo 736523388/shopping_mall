@@ -1,7 +1,10 @@
 {
-  "navigationBarTitleText": "首页",
   "usingComponents": {
-    "van-tabbar": "@vant/weapp/tabbar/index",
-    "van-tabbar-item": "@vant/weapp/tabbar-item/index"
+    "basics": "/pages/basics/home/home",
+    "component": "/pages/component/home/home",
+    "plugin": "/pages/plugin/home/home",
+    "about": "/pages/about/home/home",
+    "recycle-view": "miniprogram-recycle-view/recycle-view",
+    "recycle-item": "miniprogram-recycle-view/recycle-item"
   }
 }
