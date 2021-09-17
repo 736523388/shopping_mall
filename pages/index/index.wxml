@@ -1,40 +1,27 @@
-<recycle-view batch="{{batchSetRecycleData}}" id="recycleId">
-  <view slot="before">长列表前面的内容</view>
-  <recycle-item wx:for="{{recycleList}}" wx:key="id">
-    <view>
-        <image style='width:80px;height:80px;float:left;' src="{{item.image_url}}"></image>
-      {{item.idx+1}}. {{item.title}}
+<!-- <view class="page" data-weui-theme="{{theme}}">
+    <view class="page__bd">
+        <mp-searchbar bindselectresult="selectResult" search="{{search}}"></mp-searchbar>
     </view>
-  </recycle-item>
-  <view slot="after">长列表后面的内容</view>
-</recycle-view>
+</view> -->
 <basics wx:if="{{PageCur=='basics'}}"></basics>
 <component wx:if="{{PageCur=='component'}}"></component>
 <plugin wx:if="{{PageCur=='plugin'}}"></plugin>
 <about wx:if="{{PageCur=='about'}}"></about>
 <view class="cu-bar tabbar bg-white shadow foot">
   <view class="action" bindtap="NavChange" data-cur="basics">
-    <view class='cuIcon-cu-image'>
-      <image src="/images/tabbar/basics{{PageCur=='basics'?'_cur':''}}.png"></image>
-    </view>
-    <view class="{{PageCur=='basics'?'text-green':'text-gray'}}">元素</view>
+    <view class="{{PageCur=='basics'?'cuIcon-homefill text-red':'cuIcon-home text-grey'}}"></view>
+    <view class="{{PageCur=='basics'?'text-red':'text-gray'}}">首页</view>
   </view>
   <view class="action" bindtap="NavChange" data-cur="component">
-    <view class='cuIcon-cu-image'>
-      <image src="/images/tabbar/component{{PageCur=='component'?'_cur':''}}.png"></image>
-    </view>
-    <view class="{{PageCur=='component'?'text-green':'text-gray'}}">组件</view>
+    <text class="{{PageCur=='component'?'cuIcon-shopfill text-red':'cuIcon-shop text-grey'}}"></text>
+    <view class="{{PageCur=='component'?'text-red':'text-gray'}}">全部宝贝</view>
   </view>
   <view class="action" bindtap="NavChange" data-cur="plugin">
-    <view class='cuIcon-cu-image'>
-      <image src="/images/tabbar/plugin{{PageCur=='plugin'?'_cur':''}}.png"></image>
-    </view>
-    <view class="{{PageCur=='plugin'?'text-green':'text-gray'}}">扩展</view>
+    <text class="{{PageCur=='plugin'?'cuIcon-cartfill text-red':'cuIcon-cart text-grey'}}"></text>
+    <view class="{{PageCur=='plugin'?'text-red':'text-gray'}}">购物车</view>
   </view>
   <view class="action" bindtap="NavChange" data-cur="about">
-    <view class='cuIcon-cu-image'>
-      <image src="/images/tabbar/about{{PageCur=='about'?'_cur':''}}.png"></image>
-    </view>
-    <view class="{{PageCur=='about'?'text-green':'text-gray'}}">关于</view>
+    <text class="{{PageCur=='about'?'cuIcon-peoplefill text-red':'cuIcon-people text-grey'}}"></text>
+    <view class="{{PageCur=='about'?'text-red':'text-gray'}}">我的</view>
   </view>
 </view>

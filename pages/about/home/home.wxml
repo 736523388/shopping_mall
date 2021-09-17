@@ -12,56 +12,56 @@
   <view class="padding flex text-center text-grey bg-white shadow-warp">
     <view class="flex flex-sub flex-direction solid-right">
       <view class="text-xxl text-orange">{{visitTotal}}</view>
-      <view class="margin-top-sm">
-        <text class="cuIcon-attentionfill"></text> View</view>
+      <view class="margin-top-sm">余额</view>
     </view>
     <view class="flex flex-sub flex-direction solid-right">
       <view class="text-xxl text-blue">{{starCount}}</view>
-      <view class="margin-top-sm">
-        <text class="cuIcon-favorfill"></text> Star</view>
+      <view class="margin-top-sm">积分</view>
     </view>
     <view class="flex flex-sub flex-direction">
       <view class="text-xxl text-green">{{forksCount}}</view>
-      <view class="margin-top-sm">
-        <text class="cuIcon-fork"></text> Fork</view>
+      <view class="margin-top-sm">优惠券</view>
     </view>
   </view>
-  <view class="cu-list menu card-menu margin-top-xl margin-bottom-xl shadow-lg radius">
+  <view class="cu-list menu card-menu margin-top sm-border shadow-lg radius">
     <view class="cu-item arrow">
-      <view class="content" bindtap="CopyLink" data-link="https://github.com/weilanwl/ColorUI">
-        <text class="cuIcon-github text-grey"></text>
-        <text class="text-grey">GitHub</text>
+      <navigator class="content" url="/pages/about/test/list" hover-class="none">
+        <text class="cuIcon-cart text-grey"></text>
+        <text class="text-grey">购物车</text>
+      </navigator>
+      <view class="action">
+        <view class="cu-tag round bg-red sm">7</view>
       </view>
     </view>
+  </view>
+
+  <view class="cu-list menu card-menu margin-top-sm margin-bottom-sm shadow-lg radius">
     <view class="cu-item arrow">
       <navigator class="content" url="/pages/about/about/about" hover-class="none">
-        <image src="/images/logo.png" class="png" mode="aspectFit"></image>
-        <text class="text-grey">关于ColorUI组件库</text>
+        <text class="cuIcon-location text-grey"></text>
+        <text class="text-grey">收货地址</text>
       </navigator>
     </view>
+  </view>
+
+  <view class="cu-list menu sm-border card-menu margin-top margin-bottom-sm">
     <view class="cu-item arrow">
       <navigator class="content" url="/pages/about/log/log" hover-class="none">
-        <text class="cuIcon-formfill text-green"></text>
-        <text class="text-grey">日志</text>
+        <text class="cuIcon-people text-grey"></text>
+        <text class="text-grey">个人信息</text>
       </navigator>
     </view>
     <view class="cu-item arrow">
       <view class="content" bindtap="showQrcode">
-        <text class="cuIcon-appreciatefill text-red"></text>
-        <text class="text-grey">赞赏支持</text>
+        <text class="cuIcon-profile text-grey"></text>
+        <text class="text-grey">账号设置</text>
       </view>
     </view>
     <view class="cu-item arrow">
       <button class="cu-btn content" open-type="feedback">
-        <text class="cuIcon-writefill text-cyan"></text>
+        <text class="cuIcon-write text-grey"></text>
         <text class="text-grey">意见反馈</text>
       </button>
-    </view>
-    <view class="cu-item arrow">
-      <navigator class="content" url="/pages/about/test/list" hover-class="none">
-        <text class="cuIcon-creativefill text-orange"></text>
-        <text class="text-grey">Bug测试</text>
-      </navigator>
     </view>
   </view>
   <view class="cu-tabbar-height"></view>

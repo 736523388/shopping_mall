@@ -1,4 +1,10 @@
 <scroll-view scroll-y class="scrollPage">
+  <cu-custom bgImage="https://image.weilanwl.com/color2.0/plugin/cjkz2329.jpg">
+    <view slot="content">
+    首页
+      <!-- <image src="/images/cjkz.png" mode="widthFix"></image> -->
+    </view>
+  </cu-custom>
   <image src='/images/BasicsBg.png' mode='widthFix' class='png' style='width:100%;height:486rpx'></image>
   <view class='nav-list'>
     <navigator open-type="navigate" hover-class='none' url="/pages/basics/{{item.name}}/{{item.name}}" class="nav-li bg-{{item.color}}" wx:for="{{elements}}" wx:key>
